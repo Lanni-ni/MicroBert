@@ -10,5 +10,6 @@ The final dataset used here is derived from **[CopticScriptorium](https://github
 
 
 ## **Fine-tuning Based on MicroBERT**
+We fine-tune MicroBERT for NER using a BERT + BiLSTM + CRF architecture, which combines contextual embeddings with sequence modeling and structured prediction.
 
 
