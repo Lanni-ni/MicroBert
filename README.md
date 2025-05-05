@@ -14,6 +14,6 @@ Both are from: [https://github.com/CopticScriptorium/corpora](https://github.com
 
 ---
 
-## **Fine-tuning Based on microBERT**
+## **Fine-tuning Based on MicroBERT**
 
 
