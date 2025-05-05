@@ -7,7 +7,7 @@ This repository presents a fine-tuned Named Entity Recognition (NER) system for 
 
 The dataset comes from [https://github.com/CopticScriptorium/corpora](https://github.com/CopticScriptorium/corpora)
 
----
+
 
 ## **Fine-tuning Based on MicroBERT**
 
