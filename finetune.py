@@ -177,7 +177,7 @@ class NERDataset(Dataset):
             }
 
         except Exception as e:
-            print(f"❌ Error at idx={idx}: {e}")
+            print(f" Error at idx={idx}: {e}")
             raise
 
 def collate_fn(batch):
@@ -304,7 +304,7 @@ dev_dataloader = DataLoader(dev_dataset, batch_size=16, shuffle=False, collate_f
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = BiLSTM_CRF_Model(bert_model_name="lgessler/microbert-coptic-mxp", num_labels=len(label_list)).to(device)
 
-# === 从 checkpoint 开始 ===
+
 start_epoch = 110
 model.load_state_dict(torch.load(f"/content/drive/MyDrive/checkpoint_epoch{start_epoch}.pth"))
 print(f" checkpoint_epoch{start_epoch}.pth")
