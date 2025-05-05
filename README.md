@@ -5,7 +5,7 @@ This repository presents a fine-tuned Named Entity Recognition (NER) system for 
 
 ## **Preparing the NER Dataset**
 
-The dataset comes from [https://github.com/CopticScriptorium/corpora](https://github.com/CopticScriptorium/corpora)
+The final dataset used here is derived from **[CopticScriptorium](https://github.com/CopticScriptorium/corpora)**
 
 
 
