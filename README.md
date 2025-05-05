@@ -16,4 +16,4 @@ Both are from: [https://github.com/CopticScriptorium/corpora](https://github.com
 
 ## **Fine-tuning Based on microBERT**
 
-This project fine-tunes the model based on: [https://github.com/lgessler/microbert](https://github.com/lgessler/microbert)
+
